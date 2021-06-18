@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*border: solid 1px #000;*/
+}
+
+body{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    background: #131f28;
+}
+
+header{
+    background: #131f28;
+    margin: 0;
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+}
+
+/**nav**/
+.menu-enlace{
+    display: inline-block;
+    background: #131f28;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.menu-enlace:hover{
+    background: #1d2d3a;
+}
+
+nav{
+    background: #131f28;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-boton{
+    background: #131f28;
+    color: white;
+    padding: 10px 15px;
+    border: 0;
+    display: none;
+}
+
+/**secciones**/
+section{
+    background: white;
+}
+
+.servicio-inicio{
+    margin: 10px;
+    padding: 5px;
+    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.consulta-inicio{
+    text-align: center;
+    }
+
+.boton-inicio1{
+    background: #131f28;
+    color: white;
+    margin: 10px 0;
+    padding: 10px 22px;
+    font-size: 17px;
+
+}
+
+.boton-inicio1:hover{
+    background: #1d2d3a;
+}
+
+/***footer***/
+.contacto{
+    background: #131f28;
+    color: white;
+    display: inline-block;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+
+#datos-contacto{
+    text-decoration: none;
+}
+
+.copyright-qr-afip{
+    background: #131f28;
+    color: white;
+    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.copyright-qr-afip-responsive{
+    display: none;
+}
+
+.qr-afip{
+    margin: 15px 0;
+    padding-right: 15px;
+    display: inline-block;
+    text-align: center;
+    font-size: 10px;
+}
+
+/**responsive**/
+
+@media (max-width: 600px){
+nav{
+    flex-direction: column;
+}
+.nav-boton{
+    display: inline-block;
+    align-items: left;
+}
+.ocultar{
+    display: none;
+}
+.copyright-qr-afip{
+    display: none;
+}
+.copyright-qr-afip-responsive{
+    display: inline-block;
+}
+}
