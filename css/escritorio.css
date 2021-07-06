@@ -1,0 +1,100 @@
+@media (min-width: 75rem){
+
+body{
+    font-size: 1.13rem;
+    width: 80%;
+}    
+
+.img-logo{
+    width: 20rem;
+    height: auto;
+    border-radius: 0; 
+}
+
+/*nav*/
+
+nav{
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu-enlace{
+    display: inline-block;
+}
+
+.nav-boton{
+    display: none;
+}
+
+/*secciones*/
+
+.principal{
+   padding: 1.6rem 2.8rem;
+}
+
+.padding{
+    padding: 1rem 0;
+}
+
+.servicio-inicio{
+    margin: 1.5rem 0;
+    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+}
+.article-1{
+    margin: 0;
+}
+
+.boton-texto{
+    font-size: 1.13rem;  
+}
+
+.img-contador-matriculado{
+    width: auto;
+}
+
+/*footer*/
+
+.contacto{
+    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.datos-contacto{
+    text-align: left;
+}
+
+.div-no{
+    display: none;
+}
+
+.copyright-qr-afip{
+    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.copyright{
+    font-size: .8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

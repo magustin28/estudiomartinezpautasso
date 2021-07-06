@@ -1,28 +1,44 @@
 *{
     margin: 0;
     padding: 0;
-    /*border: solid 1px #000;*/
+    border: 0;
+    /* border: solid 1px #000; */
 }
 
 body{
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 18px;
+    font-size: .8rem;
     background: #131f28;
+    width: 90%;
+    max-width: 75rem;
+    margin: 0 auto;
 }
 
 header{
     background: #131f28;
-    margin: 0;
-    padding: 15px 0px 15px 0px;
     text-align: center;
 }
 
-/**nav**/
+.img-logo{
+    margin: 1rem;
+    width: 15rem;
+    height: auto;
+    /*border: solid 2px white;*/
+    border-radius: 50%;
+}
+
+/*nav*/
+
+nav{
+    background: #131f28;
+    display: flex;
+    flex-direction: column;
+}
+
 .menu-enlace{
-    display: inline-block;
     background: #131f28;
     color: white;
-    padding: 10px 15px;
+    padding: 1rem 1rem;
     text-decoration: none;
 }
 
@@ -30,103 +46,109 @@ header{
     background: #1d2d3a;
 }
 
-nav{
-    background: #131f28;
-    display: flex;
-    justify-content: center;
+.ocultar{
+    display: none;
 }
 
 .nav-boton{
     background: #131f28;
     color: white;
-    padding: 10px 15px;
+    padding: 1rem 1rem;
     border: 0;
-    display: none;
+    display: inline-block;
+    text-align: left;
 }
 
-/**secciones**/
-section{
+/*secciones*/
+
+.principal{
     background: white;
+    padding: 1.6rem 1rem;
+}
+
+.padding{
+    padding: .5rem 0;
+}
+
+hr{
+    background: grey;
+    height: 1px;
+    width: 80%;
+    margin: 1rem auto;
 }
 
 .servicio-inicio{
-    margin: 10px;
-    padding: 5px;
-    display: inline-block;
-    display: flex;
-    justify-content: space-around;
+    margin: 1rem 0;
     text-align: center;
+}
+
+.article-1{
+    margin: 1rem 0;
 }
 
 .consulta-inicio{
     text-align: center;
-    }
-
-.boton-inicio1{
-    background: #131f28;
-    color: white;
-    margin: 10px 0;
-    padding: 10px 22px;
-    font-size: 17px;
-
+    padding: 1rem 0;
 }
 
-.boton-inicio1:hover{
+.boton-texto{
+    text-decoration: none;
+    background: #131f28;
+    color: white;
+    padding: .4rem 1.5rem;
+    border-radius: 1.5rem;
+}
+
+.boton-texto:hover{
     background: #1d2d3a;
 }
 
-/***footer***/
+.contador-matriculado{
+    text-align: center;
+}
+
+.img-contador-matriculado{
+    width: 100%;
+    height: auto;
+}
+
+/*footer*/
+
 .contacto{
-    background: #131f28;
     color: white;
-    display: inline-block;
-    display: flex;
-    justify-content:left;
-    align-items: center;
+    text-align: center;
 }
 
-#datos-contacto{
+.datos-contacto{
+    margin: 1rem 0;
+}
+
+.link-contacto{
     text-decoration: none;
+    color: white;
 }
 
-.copyright-qr-afip{
-    background: #131f28;
-    color: white;
+.redes-sociales{
+    padding: 1.5rem 0;
     display: inline-block;
     display: flex;
     justify-content: space-around;
-    align-items: center;
 }
 
-.copyright-qr-afip-responsive{
-    display: none;
+.div-copyright{
+    background: white;
+}
+
+.copyright-qr-afip{
+    color: white;
+    text-align: center;
 }
 
 .qr-afip{
-    margin: 15px 0;
-    padding-right: 15px;
-    display: inline-block;
+    font-size: .62rem;
+    margin: 1rem 0;
+    padding: 0 1rem;
     text-align: center;
-    font-size: 10px;
-}
-
-/**responsive**/
-
-@media (max-width: 600px){
-nav{
-    flex-direction: column;
-}
-.nav-boton{
-    display: inline-block;
-    align-items: left;
-}
-.ocultar{
-    display: none;
-}
-.copyright-qr-afip{
-    display: none;
-}
-.copyright-qr-afip-responsive{
     display: inline-block;
 }
-}
+
