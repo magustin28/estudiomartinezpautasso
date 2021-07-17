@@ -20,7 +20,7 @@ header{
 }
 
 .img-logo{
-    margin: 1rem;
+    margin: 1rem 0 0 0;
     width: 15rem;
     height: auto;
     /*border: solid 2px white;*/
@@ -53,6 +53,7 @@ nav{
 .nav-boton{
     background: #131f28;
     color: white;
+    font-size: .9rem;
     padding: 1rem 1rem;
     border: 0;
     display: inline-block;
@@ -157,7 +158,7 @@ hr{
 
 .qr-afip{
     font-size: .62rem;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     margin-bottom: 2rem;
     padding: 0 1rem;
     text-align: center;
@@ -168,7 +169,6 @@ hr{
     font-size: .8rem;
 }
 
-
 /*sección-quienes-somos*/
 
 .socios1{
@@ -177,4 +177,31 @@ hr{
 .socios2{
     margin-left: 1rem;
     padding: .2rem 0;
+}
+
+/*sección-contacto*/
+
+.rs-contacto{
+    display: inline-block;
+    padding: .5rem 1rem;
+}
+
+.contacto1{
+    text-decoration: none;
+    color: black;
+}
+
+.contacto1:hover{
+    color: gray;
+}
+
+.hr-p-contacto{
+    background: grey;
+    height: 1px;
+    width: 80%;
+}
+
+.gg-map{
+    width: 100%;
+    height: 18rem;
 }

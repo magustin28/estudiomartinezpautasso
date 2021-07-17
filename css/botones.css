@@ -1,0 +1,65 @@
+/* <!-- Boton-Whatsapp --> */
+.wap{
+	color: white;
+	background-color:#25d366;
+	position: fixed;
+	text-align: center;
+	border-radius: 50%;
+	box-shadow: 2px 2px 3px #999;
+	z-index: 100;
+	bottom: 1.1rem;
+	right: 1.1rem;
+	width: 2.8rem;
+	height: 2.8rem;
+	line-height: 2.9rem;
+	font-size: 1.5rem;
+	text-decoration: none;
+}
+
+.wap:hover {
+	color: #25d366;
+    background-color:white;
+	text-decoration: none;
+}
+
+
+/* <!-- Boton Ir arriba --> */
+
+.ir-arriba {
+	display:none;
+	position: fixed;
+	cursor: pointer;
+	background: #1f2f3b;
+	color: white;
+	bottom: 4.1rem;
+	right: 1.1rem;
+	font-size: 1.5rem;
+	padding: .6rem;	
+	border-radius: 50%;
+}
+
+
+@media (min-width: 75rem){
+
+/* <!-- Boton-Whatsapp --> */
+
+.wap{
+	bottom: 1.5rem;
+	right: 1.5rem;
+	width: 3.6rem;
+	height: 3.6rem;
+	line-height: 3.7rem;
+	font-size: 1.8rem;
+}
+
+/* <!-- Boton Ir arriba --> */
+
+.ir-arriba {
+	padding: 1rem;
+	font-size: 1.5rem;
+	bottom: 5.8rem;
+	right: 1.5rem;
+	border-radius: 0;
+}
+
+}	

@@ -69,6 +69,10 @@ nav{
     text-align: left;
 }
 
+.redes-sociales{
+    width: 18rem;
+}
+
 .div-no{
     display: none;
 }
@@ -92,8 +96,18 @@ nav{
     padding: .2rem 0;
 }
 
+/*sección-contacto*/
 
+.p-contacto{
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.hr-p-contacto{
+    background: white;
+}
 
 
 
