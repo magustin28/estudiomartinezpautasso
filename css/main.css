@@ -139,6 +139,11 @@ hr{
     color: white;
 }
 
+.iconos-footer{
+    color: rgba(206, 199, 199, 1);
+    font-size: 1rem;
+}
+
 .redes-sociales{
     padding: 1.5rem 0;
     display: inline-block;
